@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab Test 1 </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="headsection "> 
+			<div class="logo">
+				<img src="img/h2.jpg" alt ="home">
+			</div>
+			<div class="title ">
+				<h2>My WebSite</h2>
+			</div>
+			<div class="righttop ">
+				<input type="submit" value="Type here to search">
+			</div>
+		</header>
+		<footer>
+			<nav class="mainmenu ">
+				<table border ="1" cellpadding ="5" cellspacing="5" style="width:100%; text-align: center;" >
+					<tr>
+						<td><a href="index.html">Home</a></td>
+						<td><a href="login.html">Log in</a></td>
+						<td><a href="Form.html">Registration Form</a></td>
+						<td><a href="NewPortal.html">News Portal</a></td>
+						<td><a href="img.html">Image</a></td>
+						<td><a href="contact.html">Contact</a></td>
+					</tr>
+				</table>
+			</nav>
+		</footer>
+		<div class="form">
+			<h1 style="color: blue; text-align: center;"><u>Create Account</u></h1>
+			<form style="width:100%; text-align: center;" border ="50">
+				<label for="name"><b>First Name:</b></label>
+				<input type="text" id="name" name="name" placeholder="firstname"><br> <br>
+				<label for="name"><b>Last Name:</b></label>
+				<input type="text" id="name" name="name" placeholder="lasttname"><br> <br>
+				<label style="padding: 15px;" for="mail"><b>Email:</b></label>
+				<input type="email" id="email" name="email" placeholder="email"><br> <br>
+				
+				<label style="padding: 15px;" for="phone"><b>Phone:</b></label>
+				<input type="number" id="phone" name="phone"placeholder="phone"><br> <br>
+				
+				<label style="padding-right: 15px;" for="gen"><b>Gender:</b></label>
+				<input type="radio" id="male" name="male" value="Male">
+				<label for="male"><b>Male</b></label>
+				<input type="radio" id="female" name="female" value="Female">
+				<label for="female"><b>Female</b></label><br> <br>
+				
+				<label style="padding-right: 20px;" for="dob"><b>DOB:</b></label>
+				<input type="date" id="dob" name="dob" placeholder="dob"><br> <br>
+				
+				<label style="padding: 10px;" for="pass"><b>Passward:</b></label>
+				<input type="password" id="pass" name="pass" placeholder="Passward"><br> <br>
+				<label style="padding-right: 8px;" for="division"><b>Division:</b></label>
+				<select name="division" id="division">
+					<option value="bari">Barishal</option>
+					<option value="dha">Dhaka</option>
+					<option value="Syl">Sylet</option>
+					<option value="Khu">Khulna</option>
+					<option value="Chit">Chittagong</option>
+					<option value="Raj">Rajshahi</option>
+					<option value="Mym">Mymensingh</option>
+					<option value="Rang">Rangpur</option>
+				</select><br><br>
+				<input type="submit" value="Create">
+			</div>
+	</body>
+</html>
